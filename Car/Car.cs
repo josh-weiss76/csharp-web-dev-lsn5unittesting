@@ -41,7 +41,7 @@ namespace CarNS
             GasTankLevel -= gallonsUsed;
             Odometer += milesAbleToTravel;
         }
-        public void AddGass(double gas)
+        public void AddGas(double gas)
         {
             GasTankLevel += gas;
             if (GasTankLevel > GasTankSize)
